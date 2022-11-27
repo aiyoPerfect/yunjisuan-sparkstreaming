@@ -18,8 +18,8 @@ class StackoverflowSpider(scrapy.Spider):
         self.count = 1
 
     def start_requests(self):
-        _url = 'https://stackoverflow.com/questions?page={page}&sort=votes&pagesize=50'  # https://stackoverflow.com/questions?tab=Newest&page={page}&pagesize=50
-        urls = [_url.format(page=page) for page in range(1, 2)]
+        _url = 'https://stackoverflow.com/questions?tab=Newest&page={page}&pagesize=50'
+        urls = [_url.format(page=page) for page in range(1, 1000)]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
