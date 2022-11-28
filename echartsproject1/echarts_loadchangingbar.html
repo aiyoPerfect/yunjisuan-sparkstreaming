@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="lib/echarts.min.js"></script>
+    <script src="lib/jquery.min.js"></script>
+</head>
+<body>
+    <div style="width: 1000px;height:400px"></div>
+
+    <script>
+        //dom参数 决定图表呈现的位置 
+       var mcharts = echarts.init(document.querySelector('div'))
+        //ajax 读取json1.json 文件
+        var urldata = []
+        var numdata = []
+        $.get('data/json1.json',function(ret){
+            for(var i = 0;i<ret.length;i++){
+                var url = ret[i].name;
+                var num = ret[i].count;
+                urldata.push(url)
+                numdata.push(num)
+            }
+            console.log(urldata,numdata)
+        //    4、准备配置项
+        var option = {
+            xAxis:{
+                type:'category',
+                data:urldata
+            },
+            yAxis:{
+                type:'value'
+            },
+            series:[
+                {
+                    name:'chinese',
+                    type:'bar',
+                    data:numdata
+                }
+            ]
+        }
+        // 5、将配置项设置给ecahrts
+        mcharts.setOption(option)
+        })
+ 
+    </script>
+
+</body>
+</html>

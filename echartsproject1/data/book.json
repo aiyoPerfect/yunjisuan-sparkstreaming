@@ -1,0 +1,254 @@
+{
+  "items": [
+    {
+      "answers": [],
+      "links": "11227809",
+      "questions": [
+        "Why is processing a sorted array faster than processing an unsorted array?"
+      ],
+      "tags": [
+        "java",
+        "c++",
+        "performance",
+        "cpu-architecture",
+        "branch-prediction"
+      ],
+      "views": "1768940",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "927358",
+      "questions": [
+        "How do I undo the most recent local commits in Git?"
+      ],
+      "tags": [
+        "git",
+        "version-control",
+        "git-commit",
+        "undo"
+      ],
+      "views": "11948519",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "2003505",
+      "questions": [
+        "How do I delete a Git branch locally and remotely?"
+      ],
+      "tags": [
+        "git",
+        "version-control",
+        "git-branch",
+        "git-push",
+        "git-remote"
+      ],
+      "views": "10483649",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "292357",
+      "questions": [
+        "What is the difference between 'git pull' and 'git fetch'?"
+      ],
+      "tags": [
+        "git",
+        "version-control",
+        "git-pull",
+        "git-fetch"
+      ],
+      "views": "3285771",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "231767",
+      "questions": [
+        "What does the 'yield' keyword do in Python?"
+      ],
+      "tags": [
+        "python",
+        "generator",
+        "yield"
+      ],
+      "views": "3086962",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "477816",
+      "questions": [
+        "Which JSON content type do I use?"
+      ],
+      "tags": [
+        "json",
+        "mime-types",
+        "content-type"
+      ],
+      "views": "3620513",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "5767325",
+      "questions": [
+        "How can I remove a specific item from an array?"
+      ],
+      "tags": [
+        "javascript",
+        "arrays"
+      ],
+      "views": "10811558",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "6591213",
+      "questions": [
+        "How do I rename a local Git branch?"
+      ],
+      "tags": [
+        "git",
+        "version-control",
+        "git-branch"
+      ],
+      "views": "4679584",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "348170",
+      "questions": [
+        "How do I undo 'git add' before commit?"
+      ],
+      "tags": [
+        "git",
+        "undo",
+        "git-add"
+      ],
+      "views": "4691430",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "1642028",
+      "questions": [
+        "What is the '-->' operator in C++?"
+      ],
+      "tags": [
+        "c++",
+        "c",
+        "operators",
+        "code-formatting",
+        "standards-compliance"
+      ],
+      "views": "948883",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "244777",
+      "questions": [
+        "Can comments be used in JSON?"
+      ],
+      "tags": [
+        "json",
+        "comments"
+      ],
+      "views": "3284928",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "79923",
+      "questions": [
+        "What and where are the stack and heap?"
+      ],
+      "tags": [
+        "memory-management",
+        "stack",
+        "language-agnostic",
+        "dynamic-memory-allocation",
+        "heap-memory"
+      ],
+      "views": "1801717",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "1125968",
+      "questions": [
+        "How do I force 'git pull' to overwrite local files?"
+      ],
+      "tags": [
+        "git",
+        "version-control",
+        "overwrite",
+        "git-pull",
+        "git-fetch"
+      ],
+      "views": "7167959",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "8318911",
+      "questions": [
+        "Why does HTML think 'chucknorris' is a color?"
+      ],
+      "tags": [
+        "html",
+        "browser",
+        "background-color"
+      ],
+      "views": "725390",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "178325",
+      "questions": [
+        "How do I check if an element is hidden in jQuery?"
+      ],
+      "tags": [
+        "javascript",
+        "jquery",
+        "dom",
+        "visibility"
+      ],
+      "views": "3068329",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "1335851",
+      "questions": [
+        "What does 'use strict' do in JavaScript, and what is the reasoning behind it?"
+      ],
+      "tags": [
+        "javascript",
+        "syntax",
+        "jslint",
+        "use-strict"
+      ],
+      "views": "1189976",
+      "votes": []
+    },
+    {
+      "answers": [],
+      "links": "1783405",
+      "questions": [
+        "How do I check out a remote Git branch?"
+      ],
+      "tags": [
+        "git",
+        "git-checkout",
+        "remote-branch"
+      ],
+      "views": "7449305",
+      "votes": []
+    }
+  ]
+}
